@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Pixelify+Sans&family=Roboto+Mono:wght@100;200;400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+
+:root {
+    --black: #000000;
+    --grey: #2c3e50; 
+    --white: #ffffff; 
+    --pink: #ed6755;
+} 
+
+body {
+    font-family: 'Lato', sans-serif;
+} 
+
+.card-Container {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 450px;
+    width: 500px;
+    background-color: var(--white);
+    border-radius: 20px;
+    box-shadow: 1.95px 1.95px 15px rgb(0,0,0,0.45);
+} 
+
+.card-Container2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 450px;
+    width: 500px;
+    margin-top: 100px;
+    background-color: var(--white);
+    border-radius: 20px;
+    box-shadow: 1.95px 1.95px 15px rgb(0,0,0,0.45);
+}  
+
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    text-align: center;
+}  
+
+.img {
+    margin: 0 auto;
+    height: 150px;
+    width: 200px;
+} 
+
+.img2 {
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+} 
+
+.text {
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: var(--pink);
+    border: none;
+    border-radius: 10px;
+    color: var(--white);
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+}  
+
+.btn {
+    display: block;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    color: var(--black);
+    transform: rotate(-3deg) scale(1.1);
+    box-shadow: 0px 3px 5px rgba(0,0,0,.4);
+    background: rgb(251,36,217);
+    background: linear-gradient(90deg, rgba(251,36,217,1) 0%, rgba(237,103,85,1) 73%);
+} 
+
+.btn2 {
+    background-color: var(--grey);
+    border: none;
+    border-radius: 10px;
+    color: var(--white);
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+}  
+
+.btn2 {
+    display: block;
+    transition: all 0.5s;
+} 
+
+.btn2:hover {
+    color: var(--white);
+    transform: scale(1.1);
+    box-shadow: 0px 2px 3px rgb(0,0,0,.4);
+    background-color: var(--pink);
+} 
+
+.my {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
